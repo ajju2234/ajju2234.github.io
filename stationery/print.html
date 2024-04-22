@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="print.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="form_container">
+    <form class="" action="https://paytm.com/">
+      <div class="form_element">
+      <h6>Which type of print you want?</h6>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="print_type" id="inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="inlineRadio1">Colour Print</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="print_type" id="inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="inlineRadio2">Black and White</label>
+      </div>
+      </div>
+      <div class="form_element">
+      <h6>How do you want it?</h6>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="print_side" id="inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="inlineRadio1">Single-Side</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="print_side" id="inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="inlineRadio2">Double-side</label>
+      </div>
+      </div>
+      <div class="form_element">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"><h6>Number of copies you want</h6></label>
+        <input type="number" class="form-control" id="exampleFormControlInput1" value="1" min="1" required>
+      </div>
+      </div>
+      <div class="form_element">
+        <div class="mb-1">
+          <label for="exampleFormControlInput1" class="form-label"><h6>Total number of pages</h6></label>
+          <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="1" min="1" value="1" required>
+        </div>
+        </div>
+      <div class="form_element">
+      <div class="mb-1">
+        <label for="formFileMultiple" class="form-label"><h6>Please upload the files</h6></label>
+        <input class="form-control" type="file" id="formFileMultiple" multiple required>
+      </div>
+      </div>
+      <div class="mb-3 btn_submit">
+        <button class="btn btn-light btn_style" type="submit">Proceed to Pay</button>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

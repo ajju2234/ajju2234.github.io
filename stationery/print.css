@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /* background-color: rgba(0, 0, 0, 0.397); */
+    background: url("brandi-redd-aJTiW00qqtI-unsplash.jpg");
+    background-size: cover;
+}
+
+.form_container{
+    position: absolute;
+    left: 25%;
+    top: 5%;
+    width: 50vw;
+    margin: 0 auto;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.871);
+    border-radius: 15px;
+}
+
+.form_element{
+    color: white;
+    padding: 10px;
+}
+
+.payment_link{
+    color: grey;
+    text-decoration: none;
+}
+
+.btn_submit{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn_style{
+    background-color: grey;
+}
+
+.form_element:hover{
+    box-shadow: 0 0 2px grey;
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+
+.navbar{
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.686);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-address{
+    margin-left:10px;
+color: white;}
+.navlogo{
+    height: 50px;
+    width: 100px;
+    color: black;
+}
+.sign{margin-left: 10px; font-weight: 18px;
+    font-size: large;
+color: white;}
+.search{width: 500px;}
+.mycart{display: flex;
+font-size: 20px;
+margin-left: 30px;
+color: white;}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-icon{
+    display: flex;
+}
+.nav-search{
+    margin-left: 50px;
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 2px;
+    color: black;
+}
+.search-icon{
+    background-color: rgb(255, 200, 0);
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    display:flex ;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 40px;
+}
+main {
+    display: flex;
+  
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.product {
+    width: 300px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    height: ;
+}
+
+.product img {
+    max-width: 100%;
+    height: 50% ;
+    background-size: cover;
+    
+}
+button{
+    align-items: baseline;
+
+    
